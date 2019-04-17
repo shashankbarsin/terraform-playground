@@ -14,7 +14,7 @@ terraform {
 
 # Create a resource group
 resource "azurerm_resource_group" "rg" {
-    name     = "myTFResourceGroup"
+    name     = "myTFResourceGroup1"
     location = "westus2"
 }
 # Create virtual network
